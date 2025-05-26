@@ -1,0 +1,191 @@
+*{
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-header {
+    display: grid;
+    grid-template-columns:auto 1fr;
+    grid-template-rows: auto;
+    gap: 0;
+    background-color: #E3D9CA;
+    text-align: center;
+    border-style: groove;
+    border-color: #E3D9CA;
+}
+
+#logo{
+    height: 2.5em;
+}
+
+.menu{
+    display: block;
+    position: relative;
+    top: 45%;
+}
+
+.menu > ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    background-color: #E3D9CA;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F58EFF;
+}
+
+.main-sections {
+    display: grid;
+    grid-template-columns:75% 25%;
+    grid-template-rows: auto; 
+    background-color: #FFDFFB;
+    border-style: groove;
+    border-color: #FFDFFB;
+    border-top: none;
+    border-bottom: none;
+}   
+
+.main-sections > main > h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+.main-sections > main > h3 {
+    text-align: justify;
+    padding: 1em;
+    padding-inline-start: 2em;
+}
+
+.main-sections > main > p {
+    text-align: justify;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
+    padding-bottom: 0.8em;
+}
+
+#reseñas{
+    background-color: #F58EFF;
+    text-align: justify;
+    padding: 1em;
+    border-left-style: groove;
+    border-color: #F58EFF;
+}
+
+#reseñas > h2{
+    text-align: center;
+}
+
+#reseñas > article > h3{
+    padding: 1em;
+    text-align: center;
+}
+
+#reseñas > article {
+    padding: 1em;
+    margin: 1.5em;
+    border-radius: 1em;
+    border-color:#c8b8ff;
+    border-style: groove;
+    background-color: #c8b8ff;
+}
+
+.img{
+    text-align: center;
+    vertical-align:top;
+}
+
+#img-libros{
+    height: 40em;
+    padding-bottom: 2em;
+}
+
+#img-han-kang{
+    height: 20em;
+}
+
+figure{
+    float: left;
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+figcaption {
+  font: italic smaller "Montserrat";
+  text-align: center;
+}
+
+/*Footer*/
+footer{
+    background-color: #E3D9CA;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr auto;
+    padding:0.5em;
+}
+
+.socials{
+    
+    position: relative;
+    top: 45%;
+}
+
+.socials > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.socials > ul > li > a > img{
+    height: 1.1em;
+}
+
+.footer-note{
+    padding-top: 1em;
+    text-align: center;
+    font-weight:200;
+}
+
+/*seccion lecturas recomendadas*/
+
+#lecturas-recomendadas {
+    background-color: #c8b8ff;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 1em;
+    text-align: center;
+    border-color: #c8b8ff;
+    border-style: groove;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.fila-2{
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    padding: 1em;
+}
+
+.fila-2 > article{
+    text-align: justify;
+    padding:1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    border-color: #F58EFF;
+    border-style:groove;
+    background-color: #F58EFF;
+}
