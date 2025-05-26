@@ -29,7 +29,7 @@
 .menu > ul {
     list-style: none;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     background-color: #E3D9CA;
     font-size: 1.2em;
     font-weight: bold;
