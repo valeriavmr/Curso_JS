@@ -3,7 +3,7 @@
 /* Estilos para pantallas pequeñas (menos de 600px) */
 @media only screen and (max-width: 600px) {
  body {
- font-size: 8px;
+ font-size: 9px;
  }
 
  #logo{
@@ -16,6 +16,12 @@
 
 /*main*/
 
+.main-sections {
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto; 
+}
+
 #img-libros{
     height: 20em;
     padding:2em;
@@ -27,45 +33,31 @@
     height: 8em;
 }
 
-/*reseñas*/
-#reseñas{
-    padding: 0;
-}
-
-#reseñas > article > h3{
-    text-align: center;
-    padding: 0.1em;
-}
-
-#reseñas > article {
-    padding: 0.5em;
-    margin: 0.5em;
-}
-
 /*seccion lecturas recomendadas*/
-
-#lecturas-recomendadas {
-    padding: 0.5em;
-}
-
-h3{
-    padding-bottom: 0.5em;
-}
-
-.fila-2{
-    padding: 0.5em;
-}
 
 .img-lecturas{
     height: 10em;
     float: left;
+    padding: 1em;
+}
+
+.fila-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+/*contacto*/
+
+textarea{
+    width: 75vw;
 }
 
 }
 
 /*pantallas medianas*/
 
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 1024px) {
 
  #logo{
     height: 1.4em;
@@ -89,37 +81,29 @@ h3{
 }
 
 /*reseñas*/
-#reseñas{
-    padding: 0;
-}
-
-#reseñas > article > h3{
-    text-align: center;
-    padding: 0.5em;
-}
-
-#reseñas > article {
-    padding: 0.5em;
-    margin: 0.5em;
+.main-sections {
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto; 
 }
 
 /*seccion lecturas recomendadas*/
 
-#lecturas-recomendadas {
-    padding: 0.5em;
-}
-
-h3{
-    padding-bottom: 0.5em;
-}
-
-.fila-2{
-    padding: 0.5em;
-}
-
 .img-lecturas{
     height: 10em;
 }  
+
+.fila-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+/*contacto*/
+
+textarea{
+    width: 75vw;
+}
 
 }
 
