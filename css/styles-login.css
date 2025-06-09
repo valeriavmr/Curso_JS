@@ -3,6 +3,16 @@ main{
     padding: 2em;
     background-color: #FFDFFB;
 }
+
+#logo{
+    height: 1.8em;
+}
+
+.menu{
+    top: 30%;
+}
+
+
 main > #formulario{
     text-align: center;
     padding-top: 1em;
@@ -10,4 +20,17 @@ main > #formulario{
 
 main > #formulario > input{
     margin: 1em;
+}
+
+#btn-formulario{
+    background-color: #E3D9CA;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+#btn-formulario:hover{
+    color: #F58EFF;
+    cursor:pointer
 }

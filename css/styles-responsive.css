@@ -1,0 +1,125 @@
+/*Celulares pequeños*/
+
+/* Estilos para pantallas pequeñas (menos de 600px) */
+@media only screen and (max-width: 600px) {
+ body {
+ font-size: 8px;
+ }
+
+ #logo{
+    height: 1em;
+}
+
+.menu{
+    top: 5%;
+}
+
+/*main*/
+
+#img-libros{
+    height: 20em;
+    padding:2em;
+    padding-top:0;
+    float: left;
+}
+
+#img-han-kang{
+    height: 8em;
+}
+
+/*reseñas*/
+#reseñas{
+    padding: 0;
+}
+
+#reseñas > article > h3{
+    text-align: center;
+    padding: 0.1em;
+}
+
+#reseñas > article {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+/*seccion lecturas recomendadas*/
+
+#lecturas-recomendadas {
+    padding: 0.5em;
+}
+
+h3{
+    padding-bottom: 0.5em;
+}
+
+.fila-2{
+    padding: 0.5em;
+}
+
+.img-lecturas{
+    height: 10em;
+    float: left;
+}
+
+}
+
+/*pantallas medianas*/
+
+@media only screen and (max-width: 912px) {
+
+ #logo{
+    height: 1.4em;
+}
+
+.menu{
+    top: 20%;
+}
+
+/*main*/
+
+#img-libros{
+    height: 25em;
+    padding:2em;
+    padding-top:0;
+    float: left;
+}
+
+#img-han-kang{
+    height: 11em;
+}
+
+/*reseñas*/
+#reseñas{
+    padding: 0;
+}
+
+#reseñas > article > h3{
+    text-align: center;
+    padding: 0.5em;
+}
+
+#reseñas > article {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+/*seccion lecturas recomendadas*/
+
+#lecturas-recomendadas {
+    padding: 0.5em;
+}
+
+h3{
+    padding-bottom: 0.5em;
+}
+
+.fila-2{
+    padding: 0.5em;
+}
+
+.img-lecturas{
+    height: 10em;
+}  
+
+}
+
