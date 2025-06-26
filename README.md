@@ -2,13 +2,22 @@
 Repositorio del proyecto para el curso de front end
 
 # Uso
-Página web estática de un club de lectura, con secciones de reseñas, lecturas recomendadas y un formulario de contacto.
+Página web responsive de una libreria, con secciones de:
+- reseñas.
+- lecturas recomendadas.
+- formulario de contacto.
+- Lista de libros en venta.
+- Carrito para gestionar compras.
 
 # Tecnologías utilizadas
 - HTML5
 - CSS
+- Media Queries (CSS)
 - Formspree
 - Git
+- Javascript
+- LocalStorage (javascript)
+- API fetch
 
 # Cómo ejecutar la página
 - Clona el repositorio en: https://github.com/valeriavmr/Curso_JS.git
