@@ -1,18 +1,30 @@
 /*Celulares pequeños*/
 
 /* Estilos para pantallas pequeñas (menos de 600px) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
  body {
- font-size: 9px;
+ font-size: 7.5px;
  }
 
- #logo{
-    height: 1em;
-}
+ /*menu*/
 
-.menu{
-    top: 5%;
-}
+ ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+ }
+
+ #carrito-container{
+    font-size: 8px;
+ }
+
+ #contador-carrito{
+    font-size: 8px;
+ }
+
+ .material-icons{
+    font-size: 12px;
+ }
 
 /*main*/
 
@@ -51,6 +63,32 @@
 
 textarea{
     width: 75vw;
+    font-size: 10px;
+}
+
+#btn-formulario{
+    font-size: 10px;
+}
+
+/*Productos*/
+
+#items{
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#btn_add_compra{
+    font-size: 10px;
+}
+
+/*Carrito*/
+.opciones > button{
+    font-size: 7.5px;
+}
+
+#del_producto_img{
+    height: 2em;
 }
 
 }
@@ -59,15 +97,11 @@ textarea{
 
 @media only screen and (max-width: 1024px) {
 
- #logo{
-    height: 1.4em;
-}
-
-.menu{
-    top: 20%;
-}
-
 /*main*/
+
+.nav_header{
+    font-size: 0.4rem;
+}
 
 #img-libros{
     height: 25em;
@@ -103,6 +137,14 @@ textarea{
 
 textarea{
     width: 75vw;
+}
+
+/*Productos*/
+
+#items{
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 }

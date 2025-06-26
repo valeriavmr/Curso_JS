@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/styles-login.css">
-    <link rel="stylesheet" href="../css/styles-responsive.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
  <div class="nav-header">
@@ -29,6 +29,13 @@
         <li><a href="../index.html#reseñas">Reseñas</a></li>
         <li><a href="../index.html#lecturas-recomendadas">Lecturas recomendadas</a></li>
         <li><a href="../index.html">Home</a></li>
+        <li><a href="./carrito.html">Productos</a></li>
+        <li><a href="./carrito_2.html" id="carrito-link">
+                        <div id="carrito-container">
+                            <span class="material-icons" id="icono-carrito">shopping_cart</span>
+                            <span id="contador-carrito">0</span>
+                        </div>
+                    </a></li>
     </ul>
  </nav>
 </div> 
@@ -36,19 +43,16 @@
     <h2>Formulario de contacto</h2>
     <form action="https://formspree.io/f/myzwakyb" method="post" id="formulario">
     <label for="correo">Correo electrónico: </label><br>
-    <input type="email" name="correo" id="correo"><br>
+    <input type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" 
+    title="Correo electrónico inválido"  
+    name="correo" id="correo" required><br>
     <label for="nombre">Nombre: </label><br>
-    <input type="text" name="nombre" id="nombre"><br>
+    <input type="text" name="nombre" id="nombre" required><br>
     <label for="apellido">Apellido: </label><br>
-    <input type="text" name="apellido"><br>
+    <input type="text" name="apellido" required><br>
     <label for="edad">Edad: </label><br>
-    <input type="number" name="edad" id="edad"><br>
-    <p>Género:</p>
-        <input type="radio" name="genero" id="M" value="M">
-        <label for="genero">Masculino</label>
-        <input type="radio" name="genero" id="F" value="F">
-        <label for="genero">Femenino</label><br>
-    <textarea name="mensaje" rows="4" cols="50">¡Deja tu reseña o sugerencia!</textarea><br> 
+    <input type="number" name="edad" id="edad" required><br>
+    <textarea name="mensaje" rows="4" cols="50" required placeholder="¡Deja tu reseña o sugerencia!"></textarea><br> 
     <input type="submit" value="Enviar mensaje" id="btn-formulario">
     </form>
 </main>
@@ -64,4 +68,7 @@
  </div>
 </footer>   
 </body>
+<script src="../js/carrito.js"></script>
+<link rel="stylesheet" href="../css/styles-carrito.css">
+<link rel="stylesheet" href="../css/styles-responsive.css">
 </html>
