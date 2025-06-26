@@ -6,13 +6,15 @@ async function crearListaLibros(){
 
   //Uso my json server para traerme la api falsa(con apis reales solo va el link)
   //Uso async y await para más claridad de código
-  try{
+
+  //Me traigo el contenedor donde iran los libros
+  let contenedor_libros = document.getElementById("items")
+  //Solo se ejecuta cuando exista el contenedor
+  if(contenedor_libros!=null){
+      try{
     //Me traigo los datos de la api
     const response = await fetch("https://my-json-server.typicode.com/valeriavmr/Curso_JS/libros");
     const libros = await response.json();
-      
-    //Me traigo el contenedor donde iran los libros
-    let contenedor_libros = document.getElementById("items")
 
     //Itero los libros para armarlos
     libros.forEach( libro=>{
@@ -57,6 +59,7 @@ async function crearListaLibros(){
   }
   //agrego los botones
   agregarBotonAgregar()
+  }
 }
 
 
