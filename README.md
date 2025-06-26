@@ -16,7 +16,7 @@ Página web responsive de una libreria, con secciones de:
 - Formspree
 - Git
 - Javascript
-- LocalStorage (javascript)
+- API LocalStorage
 - API fetch
 
 # Cómo ejecutar la página
