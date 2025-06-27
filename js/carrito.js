@@ -96,7 +96,7 @@ function agregarBotonAgregar(){
             let cantidad = Number(1);
             
             //Guardo la info y paso al link del carrito
-            carrito.push({titulo,precio, cantidad})
+            carrito.push({"titulo":titulo,"precio":precio, "cantidad":cantidad})
             localStorage.setItem("carrito", JSON.stringify(carrito));
             
             }
